@@ -790,28 +790,21 @@
 	line-height: 145%;
 }
 
-/*.slider-script {
-	display: none;
-}
-*/
-@media screen and (max-width: 1475px) {
+@media screen and (max-width: 1440px) {
+	.dog-img {
+		top: 23%;
+	}
+	.main-info-wrapper {
+		top: 170px;
+	}
 	.insta-gallery-element {
-		width: 455px;
-		height: 477px;
-	}
-	.insta-sample-img-wrapper {
-		height: 225px;
-		width: 225px;
-	}
-	.insta-sample-img {
-		border-radius: 15px;
+		height: 670px;
+		width:  670px;
 	}
 }
 
+/*
 @media screen and (max-width: 1365px) {
-	.gallery-item-fourth, .gallery-item-eighth {
-		display: none;
-	}
 
 	.sale-card {
 		width: 370px;
@@ -829,93 +822,82 @@
 	}
 }
 
-@media screen and (max-width: 1390px) {
-
-	.logo {
-		margin-right: 28px;
-		width: 140px;
-		height: 35px;
-	}
-
-	.header {
-		padding-right: 20px;
-	}
-
-	.nav-item-link {
-		font-size: 14px
-	}
-
-	.button-order {		
-		width: 150px;
-		height: 35px;		
-		font-size: 12px;		
-	}
-
-	.tel-number {
-		font-size: 12px;
-		margin-right: 13px;
-	}
-
-	.nav-item:last-child {
-		margin-right: 20px;
-	}
-
-	.dog-img {
-		max-width: 271px; 
-		max-height: 298px; 
-	}
-
-	.main-info-wrapper {
-		left: 15px;
-	}
-	
-}
-
-
 @media screen and (max-width: 1124px) {
 
+	.sale-block {
+		margin-top: 45px;
+	}
+	.insta-sample-img-wrapper {
+		display: none;
+	}
+	.insta-gallery-element-second {
+		display: flex;
+	}
+	.insta-gallery-element {
+		width: 450px;
+		height: 450px;
+	}
+
+}
+*/
+
+@media screen and (max-width: 1024px) {
+	#main-wrapper {
+		background-image: url('../img/background-ipad-pro.png');
+		height:  900px;
+	}
+	.main-info-wrapper {
+		max-width:  526px;
+		top: 130px;
+		left:  15px;
+	}
+	.main-heading {
+		font-size: 35px;
+	}
+	.button-shop{
+		 width: 370px;
+	}
+	.dog-img {
+		top: 17%;
+		right:  20%;
+	}
+	.logo {
+		width:  130;
+		height:  31px;
+		margin-right: 0;
+	}
+	.order-word {
+		display: none;
+	}
 	.tel-number {
 		display: none;
 	}
-
-	.logo {
-		margin-right: 28px;
-		width: 130px;
-		height: 31px;
+	.nav-item-link {
+		font-size: 14px;
 	}
-
-	.nav-item:last-child {
-		margin-right: 18px;
-	}
-
 	.button-order {
 		width: 130px;
 		height: 42px;
 		font-size: 14px;
 	}
-
-	.order-word {
-		display: none;
+	.nav-item:last-child {
+		margin-right: 0;
 	}
-
-	.main-heading {
-		font-size: 35px;
-		width: 550px;
+	.about-us-block {
+		height:  900px;
 	}
-
-	.sub-heading {
-		margin-bottom: 60px;
+	.beauty-in-details-heading {
+		font-size:  35px;
 	}
-
-	.button-shop {
-		width: 370px;
-	}
-
 	.beauty-in-details-paragraph {
-		font-size: 18px;
-		margin: 50px auto 60px auto;
+		margin-top:  50px;
+		margin-bottom:  60px;
+		font-size:  18px;
 	}
-
+	.about-us-img-wrapper {
+		width: 370px;
+		height: 352px;
+	}
 	.about-us-heading {
 		font-size: 25px;
 		line-height: 28px;
@@ -923,10 +905,6 @@
 	}
 	.about-us-div {
 		align-items: center;
-	}
-	.about-us-img-wrapper {
-		width: 370px;
-		height: 352px;
 	}
 	.about-us-info {
 		width: 530px;
@@ -944,45 +922,37 @@
 		font-size: 35px;	
 	}
 	.gallery-item {
-		width: 290px;
-		height: 407px;
+		width: 380px;
+		height: 530px;
 	}
-	.sale-block {
-		margin-top: 45px;
+	.newsletter-paragraph {
+		margin-bottom:  55px;
+	}
+	.newsletter-input {
+		width:  450px;
+	}
+	.button-send {
+		width:  290px;
 	}
 	.insta-sample-img-wrapper {
 		display: none;
 	}
 	.insta-gallery-element-second {
 		display: flex;
+		width: 450px;
+		height: 450px;
 	}
 	.insta-gallery-element {
-		width: 375px;
-		height: 397px;
+		width: 450px;
+		height: 450px;
 	}
-
+	.insta-container {
+		margin-bottom:  100px;
+	}
 }
 
-@media screen and (max-width: 992px) {
+/*
 
-	.main-heading {
-		font-size: 25px;
-		width: 400px;
-		line-height: 45px;
-	}
-
-	.sub-heading {
-		font-size: 20px;
-	}
-	.button-send {
-		width: 290px;
-		height: 50px;
-	}
-	.newsletter-input {
-		width: 449px;
-	}
-
-}
 
 @media screen and (max-width: 768px) {
 	.nav-items {
@@ -995,10 +965,10 @@
     	border: none;
     	background: none;
     	cursor: pointer;
-		/*
+		
 	    position: absolute;
 	    right: 0;
-	    top: 48px;*/
+	    top: 48px;
 	}
 	.burger-icon-item {
 		background: #336699;
@@ -1008,7 +978,7 @@
 		position: relative;
 		cursor: pointer;
 		display: block;
-		/*transition: all 0.3s;*/
+		transition: all 0.3s;
 	}
 	.burger-icon-item:before,
 	.burger-icon-item:after {
@@ -1020,7 +990,7 @@
 		position: absolute;
 		top: -8px;
 		left: 0;
-		/*transition: all 0.3s;*/
+		transition: all 0.3s;
 	}
 	.burger-icon-item:after {
 		top: auto;
@@ -1036,10 +1006,10 @@
 		z-index: 2;
 		align-items: flex-start;
 	}
-	/*.header.menu-open .tel-number {
+	.header.menu-open .tel-number {
 		display: block;
-	}*/
-	.header.menu-open .burger-icon-item {
+	}
+	.headr.menu-open .burger-icon-item {
 		transform: rotate(45deg);
 	}
 
@@ -1057,5 +1027,10 @@
 	}
 	.header.menu-open .nav-item {
 		margin-bottom: 50px;
+	}
+
+	.main-info-wrapper {
+		top: 550px;
+		
 	}
 }
