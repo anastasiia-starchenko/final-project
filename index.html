@@ -176,9 +176,9 @@
 			<p class="write-us-paragraph">Если вы хотите что-то сказать или спросить нас, мы здесь и готовы помочь вам.</p>
 			<a href="#" class="write-us">Напишите нам</a>
 		</div>
-		<!--<footer class="footer">
-				<div class="footer-div">
-					<nav class="footer-nav">
+		<footer class="footer">
+			<div class="left-footer-block">
+				<nav class="first-footer-nav footer-nav-wrapper">
 					<ul class="footer-nav-items">
 						<li class="footer-nav-item"><a href="#" class="footer-nav-item-link">Магазин</a></li>
 						<li class="footer-nav-item"><a href="#" class="footer-nav-item-link">Стили</a></li>
@@ -188,19 +188,25 @@
 						<li class="footer-nav-item"><a href="#" class="footer-nav-item-link">Акции</a></li>
 					</ul>
 				</nav>
-				<p class="footer-paragraph">Нелегальное копирование материала преследуется по закону.</p>
-				<span class="footer-span">© 2021 Décor Boutique. </span>
-				<span class="footer-span">Все права защищены.</span>
+
+
+				<div class="copyrights-wrapper">
+					<p class="footer-paragraph">Нелегальное копирование материала преследуется по закону.</p>
+					<span class="footer-span">© 2021 Décor Boutique. </span>
+					<span class="footer-span">Все права защищены.</span>
 				</div>
-				<div class="flex-footer-wrapper">
-					<div class="footer-icons-nav-wrapper">
-					<div class="footer-icons">
-						<a href="#"><img class="footer-mail-icon" src="img/mail.svg" alt="mail-img"></a>
-						<a href="#"><img class="footer-facebook-icon"src="img/facebook.svg" alt="facebook-img"></a>
-						<a href="#"><img class="footer-insta-icon"src="img/instagram.svg" alt="instagram-img"></a>
-					</div>
-					<div class="second-footer-nav">
-						<nav class="footer-nav">
+			</div>
+		<div class="right-footer-block">
+			<div class="top-right-footer-block">
+				<div class="footer-icons-wrapper">
+					<a href="#"><img class="footer-mail-icon" src="img/mail.svg" alt="mail-img"></a>
+					<a href="#"><img class="footer-facebook-icon"src="img/facebook.svg" alt="facebook-img"></a>
+					<a href="#"><img class="footer-insta-icon"src="img/instagram.svg" alt="instagram-img"></a>
+				</div>
+
+
+				<div class="second-footer-nav">
+					<nav class="second-footer-nav footer-nav">
 						<ul class="footer-nav-items">
 							<li class="footer-nav-item second-footer-nav-item"><a href="#" class="footer-nav-item-link">Конструктор</a></li>
 							<li class="footer-nav-item second-footer-nav-item"><a href="#" class="footer-nav-item-link">Оплата и доставка</a></li>
@@ -210,10 +216,10 @@
 							<li class="footer-nav-item second-footer-nav-item"><a href="#" class="footer-nav-item-link">FAQ</a></li>
 							<li class="footer-nav-item second-footer-nav-item"><a href="#" class="footer-nav-item-link">Контакты</a></li>
 						</ul>
-						</nav>
-					</div>
+					</nav>
 				</div>
-				
+			</div>
+
 				<div class="footer-news-offer">
 					<p class="news-offer">Подпишитесь на новости</p>
 					<form class="footer-newsletter-form">
@@ -221,9 +227,10 @@
 						<button class="footer-button-ok" type="submit" value="Send">Ok</button>
 					</form>
 				</div>
-				</div>
+		</div>	
 				
-		</footer>-->
+		</footer>
+
 		<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 	    
 		<script type="text/javascript">
@@ -232,6 +239,17 @@
 	        burger.onclick = function() {
 	            header.classList.toggle("menu-open");
 	        }
+	    </script>
+	    <script type="text/javascript">
+	    	$(window).scroll(function() {    
+    		var scroll = $(window).scrollTop();
+
+		    if (scroll >= 720) {
+		        $(".header").addClass("scrolling");
+		    } else {
+		        $(".header").removeClass("scrolling");
+		    }
+			});
 	    </script>
 	</body>
 </html>
