@@ -608,7 +608,7 @@
 }
 
 .write-us-paragraph {
-	width: 670px;
+	max-width: 670px;
 	margin: 0 auto;
 	letter-spacing: 0.03em;
 	color: #191918;
@@ -1315,7 +1315,7 @@
 		margin-bottom: 131px;
 	}
 	.write-us-paragraph {
-		width: 500px;
+		max-width: 500px;
 		font-size: 20px;
 		line-height: 150%;
 	}
@@ -1404,6 +1404,6 @@
 		padding: 0 15px 0 15px;
 	}
 	.write-us-paragraph {
-		width: 380px;
+		max-width: 380px;
 	}
 }
