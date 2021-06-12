@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -399,7 +400,6 @@
 	height: 620px;
 	background: #F8F8F7;
 	border-radius: 30px;
-	padding-bottom: 52px;
 	position: relative;
 }
 
@@ -428,7 +428,7 @@
 	align-items: center;
 }
 
-.sale-img {
+.first-sale-img {
 	max-width: 395px;
 }
 
@@ -803,48 +803,10 @@
 	}
 }
 
-/*
-@media screen and (max-width: 1365px) {
-
-	.sale-card {
-		width: 370px;
-	}
-	.sale-img {
-		max-width: 335px;
-		max-height: 253px;
-	}
-
-	.sale-item-description {
-		margin-bottom: 48px;
-	}
-	.old-price {
-		margin-right: 10px;
-	}
-}
-
-@media screen and (max-width: 1124px) {
-
-	.sale-block {
-		margin-top: 45px;
-	}
-	.insta-sample-img-wrapper {
-		display: none;
-	}
-	.insta-gallery-element-second {
-		display: flex;
-	}
-	.insta-gallery-element {
-		width: 450px;
-		height: 450px;
-	}
-
-}
-*/
-
 @media screen and (max-width: 1024px) {
 	#main-wrapper {
 		background-image: url('../img/background-ipad-pro.png');
-		height:  900px;
+		height:  890px;
 	}
 	.main-info-wrapper {
 		max-width:  526px;
@@ -862,7 +824,7 @@
 		right:  20%;
 	}
 	.logo {
-		width:  130;
+		width:  130px;
 		height:  31px;
 		margin-right: 0;
 	}
@@ -949,12 +911,41 @@
 	.insta-container {
 		margin-bottom:  100px;
 	}
+	.sale-card {
+		width:  325px;
+		height:  600px;
+	}
+
+	.first-sale-img {
+		max-width:  330px;
+	}
+	.sale-img {
+		max-width: 230px;
+		max-height: 250px;
+	}
+	.sale-item-description, .old-price {
+		font-size: 16px;
+	}
+	.relevant-price {
+		font-size: 27px;
+	}
 }
 
-/*
-
-
 @media screen and (max-width: 768px) {
+	#main-wrapper {
+		margin-bottom: 120px;
+	}
+	.header.menu-open .burger-menu-header-border {
+		width: 691px;
+		position: absolute;
+		left: 40px;
+		top: 100px;
+		border-bottom: 0.5px solid rgba(51, 102, 153, 0.36);
+	}
+	.header {
+		padding-right: 95px;
+		justify-content: unset;
+	}
 	.nav-items {
 		display: none;
 	}
@@ -965,10 +956,9 @@
     	border: none;
     	background: none;
     	cursor: pointer;
-		
 	    position: absolute;
-	    right: 0;
-	    top: 48px;
+	    right: 30px;
+	    top: 30px;
 	}
 	.burger-icon-item {
 		background: #336699;
@@ -1005,11 +995,19 @@
 		width: 100%;
 		z-index: 2;
 		align-items: flex-start;
+		padding-top: 25px;
+		justify-content: unset;
+	}
+	.header.menu-open .header {
+		padding-top: 30px;
 	}
 	.header.menu-open .tel-number {
 		display: block;
+		position: absolute;
+		top: 30px;
+		left: 252px;
 	}
-	.headr.menu-open .burger-icon-item {
+	.header.menu-open .burger-icon-item {
 		transform: rotate(45deg);
 	}
 
@@ -1022,8 +1020,10 @@
 	}
 	.header.menu-open .nav-items {
 		display: block;
+		text-align: center;
 		position: absolute;
-		top: 162px;
+		top: 150px;
+		left: 40%;
 	}
 	.header.menu-open .nav-item {
 		margin-bottom: 50px;
@@ -1032,5 +1032,378 @@
 	.main-info-wrapper {
 		top: 550px;
 		
+	}
+	.background-layer {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 768px;
+		height: 398px;
+		background: linear-gradient(180deg, rgba(255, 255, 255, 0.36) 0%, rgba(255, 255, 255, 0.88) 100%);
+	}
+	.dog-img {
+		right: 38%;
+		top: 15%;
+	}
+	.button-order {
+		width: 150px;
+	}
+	.call-order {
+		margin-right: 30px;
+	}
+	.logo {
+		margin-right: 298px;
+	}
+	.main-info-wrapper {
+		max-width: 500px;
+		left: 18%;
+	}
+	.sub-heading {
+		margin-bottom:  50px;
+		font-size: 20px;
+	}
+	.main-heading {
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom:  57px;
+	}
+	.button-shop {
+		width: 330px;
+	}
+	.header.menu-open .call-order {
+		margin-right: 30px;
+	}
+	.header.menu-open .logo {
+		margin-right: 298px;
+	}
+	.beauty-in-details-heading {
+		font-size: 30px;
+		margin-top: 0;
+	}
+	.beauty-in-details-paragraph {
+		margin-top: 45px;
+		margin-bottom: 50px;
+		line-height: 27px;
+	}
+	.about-us-block {
+		height: 100%;
+		margin-bottom: 120px;
+	}
+	.about-us-div {
+		flex-wrap: wrap;
+	}
+	.about-us-img-wrapper {
+		width: 690px;
+		height: 367px;
+		margin-bottom: 50px;
+	}
+	.about-us-img {
+		object-fit: cover;
+	}
+	.about-us-info {
+		width: 690px;
+	}
+	.about-us-heading{
+		font-size: 20px;
+		margin-bottom: 45px;
+	}
+	.about-us-info .about-us-paragraph:nth-child(3) {
+		margin-bottom: 50px;
+	}
+	.button-shop {
+		width: 270px;
+	}
+	.collections-heading {
+		margin-top: 0;
+		font-size: 30px;
+		margin-bottom: 50px;
+	}
+	.gallery-item {
+		width: 270px;
+		height: 380px;
+	}
+	.sale-block {
+		margin-top: 105px;
+	}
+	.newsletter-paragraph {
+		width: 689px;
+		font-size: 16px;
+		margin-top: 50px;
+		margin-bottom: 45px;
+	}
+	.newsletter {
+		margin-bottom: 120px;
+	}
+	.newsletter-form {
+		display: flex;
+	}
+	.button-send {
+		width: 209px;
+	}
+	.sale-heading {
+		font-size: 30px;
+		margin-bottom: 50px;
+	}
+	.sale-cards {
+		flex-wrap: wrap;
+	}
+	.sale-card {
+		width: 330px;
+		height: 490px;
+		margin-bottom: 50px;
+	}
+	.first-sale-img {
+		max-width: 292px;
+		height: 136px;
+	}
+	.sale-img {
+		max-width: 205px;
+		max-height: 223px;
+	}
+	.sale-img-wrapper {
+		height: 300px;
+	}
+	.relevant-price {
+		font-size: 25px;
+	}
+	.prices {
+		margin-bottom: 42px;
+	}
+	.sale-cards .sale-card:nth-child(3){
+		margin-bottom: 0;
+	}
+	.sale-block {
+		margin-bottom: 125px;
+	}
+	.insta-gallery-element-second-div {
+		display: none;
+	}
+	.insta-gallery-element {
+		height: 477px;
+		width: 690px;
+	}
+	.insta-gallery-element:first-child {
+		margin-right: 0;
+	}
+	.insta-container {
+		margin-bottom: 153px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.header.menu-open .burger-menu-header-border {
+		width: 470px;
+		left: 33px;
+	}
+	.header.menu-open {
+		min-height: 622px;
+	}
+	.header.menu-open .tel-number {
+		left: 214px;
+	}
+	.header.menu-open .logo {
+		margin-right: 210px;
+	}
+	.header.menu-open .button-order {
+		position: absolute;
+		top: 503px;
+		left: 213px;
+	}
+	.header.menu-open .nav-items {
+		left: 36%;
+	}
+	.logo {
+		margin-right: 60px;
+	}
+	.burger-icon {
+		width: 40px;
+		height: 40px;
+		top: 20px;
+	}
+	.burger-icon-item {
+		width: 40px;
+	}
+	.burger-icon-item:before, .burger-icon-item:after {
+		top: -10px;
+		width: 40px;
+	}
+	.burger-icon-item:after {
+		top: auto;
+		bottom: -10px;
+	}
+	#main-wrapper {
+		height: 717px;
+		background-position: top left;
+		margin-bottom: 150px;
+	}
+	.dog-img {
+		width: 244px;
+		height: 268px;
+		top: 20%;
+		right: 25%;
+	}
+	.background-layer {
+		height: 344px;
+		width: 540px;
+	}
+	.main-info-wrapper {
+		left: 15px;
+		top: 425px;
+	}
+	.beauty-in-details-paragraph {
+		max-width: 510px;
+	}
+	.about-us-img-wrapper {
+		width: 510px;
+		height: 367px;
+		margin-bottom: 45px;
+	}
+	.about-us-info {
+		width: 540px;
+	}
+	.about-us-heading {
+		margin-bottom: 40px;
+	}
+	.about-us-paragraph {
+		width: 489px;
+	}
+	.about-us-info .about-us-paragraph:nth-child(3)
+	{
+		margin-bottom: 38px;
+	}
+	.button-shop {
+		width: 330px;
+	}
+	.gallery-item {
+		width: 230px;
+		height: 336px;
+	}
+	.collections-block {
+		padding: 0 30px 0 30px;
+	}
+	.newsletter-paragraph {
+		width: 520px;
+	}
+	.newsletter-input {
+		width: 331px;
+	}
+	.button-send {
+		width: 150px;
+	}
+	.sale-card {
+		width: 508px;
+		height: 488px;
+	}
+	.first-sale-img {
+		max-width: 415px;
+		height: 188px;
+	}
+	.sale-item-description {
+		margin-bottom: 52px;
+	}
+	.sale-img {
+		max-width: 308px;
+		max-height: 250px;
+	}
+	.sale-block {
+		margin-bottom: 81px;
+	}
+	.insta-gallery-container {
+		width: 480px;
+	}
+	.insta-container {
+		margin-bottom: 131px;
+	}
+	.write-us-paragraph {
+		width: 500px;
+		font-size: 20px;
+		line-height: 150%;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	.logo, .header.menu-open .logo {
+		margin-right: 20px;
+		width: 120px;
+		height: 25px;
+	}
+	.header.menu-open .logo {
+		margin-right: 110px;
+	}
+	.button-order {
+		width: 100px;
+	}
+	.call-order {
+		margin-right: 20px;
+	}
+	.burger-icon {
+		right: 20px;
+	}
+	.sub-heading, .main-heading {
+		margin-bottom: 30px;
+	}
+	.header.menu-open .tel-number {
+		display: none;
+	}
+	.header.menu-open .nav-items {
+		left: 30%;
+	}
+	.header.menu-open .button-order {
+		left: 170px;
+	}
+	.beauty-in-details-heading {
+		font-size: 25px;
+	}
+	.beauty-in-details-paragraph {
+		font-size: 15px;
+	}
+	.about-us-img-wrapper {
+		width: 390px;
+	}
+	.about-us-info {
+		width: 360px;
+		margin-left: 15px;
+	}
+	.about-us-paragraph {
+		width: 350px;
+	}
+	.gallery-item {
+		width: 270px;
+		height: 360px;
+	}
+	.newsletter-paragraph {
+		width: 380px;
+	}
+	.sale-block {
+		margin-top: 50px;
+	}
+	.newsletter {
+		height: 390px;
+		margin-bottom: 70px;
+	}
+	.newsletter-input {
+		width: 380px;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.newsletter-form {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.sale-card {
+		width:  380px;
+	}
+	.insta-gallery-container {
+		width: 380px;
+	}
+	.insta-gallery-element {
+		width: 380px;
+		height: 390px;
+	}
+	.contact-us-block {
+		padding: 0 15px 0 15px;
+	}
+	.write-us-paragraph {
+		width: 380px;
 	}
 }
