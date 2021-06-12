@@ -760,7 +760,7 @@
 	font-size: 16px;
 	line-height: 145%;
 	padding-left: 56px;
-	width: 438px;
+	max-width: 438px;
 	height: 55px;
 }
 
@@ -1125,8 +1125,11 @@
 	.sale-block {
 		margin-top: 105px;
 	}
+	.newsletter-input {
+		width: 420px;
+	}
 	.newsletter-paragraph {
-		width: 689px;
+		max-width: 689px;
 		font-size: 16px;
 		margin-top: 50px;
 		margin-bottom: 45px;
@@ -1136,6 +1139,7 @@
 	}
 	.newsletter-form {
 		display: flex;
+		max-width: 510px;
 	}
 	.button-send {
 		width: 209px;
@@ -1282,7 +1286,7 @@
 		padding: 0 30px 0 30px;
 	}
 	.newsletter-paragraph {
-		width: 520px;
+		max-width: 520px;
 	}
 	.newsletter-input {
 		width: 331px;
@@ -1309,7 +1313,7 @@
 		margin-bottom: 81px;
 	}
 	.insta-gallery-container {
-		width: 480px;
+		max-width: 480px;
 	}
 	.insta-container {
 		margin-bottom: 131px;
@@ -1372,7 +1376,7 @@
 		height: 360px;
 	}
 	.newsletter-paragraph {
-		width: 380px;
+		max-width: 380px;
 	}
 	.sale-block {
 		margin-top: 50px;
@@ -1394,7 +1398,7 @@
 		width:  380px;
 	}
 	.insta-gallery-container {
-		width: 380px;
+		max-width: 380px;
 	}
 	.insta-gallery-element {
 		max-width: 380px;
